@@ -1,0 +1,46 @@
+<tbody class="bg-white divide-y divide-gray-200">
+  <tr>
+    <td class="px-6 py-4 whitespace-nowrap">
+      <div class="flex items-center">
+        <div class="ml-4">
+          <div class="text-sm font-medium text-gray-900"><%= usuario.nombre %></div>
+        </div>
+      </div>
+    </td>
+    <td class="px-6 py-4 whitespace-nowrap">
+      <div class="text-sm text-gray-900"><%= usuario.email %></div>
+    </td>
+    <td class="px-6 py-4 whitespace-nowrap">
+      <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800"><%= usuario.password %></span>
+    </td>
+    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><%= usuario.tipousuario_id %></td>
+    <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+      <a href="#" class="text-gray-600 tracking-wide text-sm"><%= link_to "Ver usuario", usuario %></a>
+    </td>
+  </tr>
+</tbody>
+
+<!--
+<div id="<%= dom_id usuario %>">
+  <p>
+    <strong>Nombre:</strong>
+    <%= usuario.nombre %>
+  </p>
+
+  <p>
+    <strong>Email:</strong>
+    <%= usuario.email %>
+  </p>
+
+  <p>
+    <strong>Password:</strong>
+    <%= usuario.password %>
+  </p>
+
+  <p>
+    <strong>Tipousuario:</strong>
+    <%= usuario.tipousuario_id %>
+  </p>
+
+</div>
+-->

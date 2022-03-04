@@ -1,0 +1,2 @@
+class Tipousuario < ApplicationRecord
+end
